@@ -20,7 +20,9 @@
             echo 'There is no work today.';?> </h1>
 
             <h1><?php sunPosition() ?></h1>
-
+          <h1><?php workHours(); ?></h1>
+        </br>
+            <h1><?php checkBirthdays(); ?></h1>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
